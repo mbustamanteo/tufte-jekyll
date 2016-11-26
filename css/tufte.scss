@@ -80,7 +80,7 @@ body { width: 87.5%;
        margin-left: auto;
        margin-right: auto;
        padding-left: 12.5%;
-       font-family: et-bembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+       font-family: 'Roboto Slab', serif;
        background-color: $bg-color;
        color: $text-color;
        max-width: 1400px;
@@ -238,8 +238,8 @@ img { max-width: 100%; }
 
 .sidenote, .marginnote { float: right;
                          clear: right;
-                         margin-right: -60%;
-                         width: 50%;
+                         margin-right: -45%;
+                         width: 40%;
                          margin-top: 0;
                          margin-bottom: 1.96rem;
                          font-size: 1.0rem;
@@ -268,7 +268,7 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
                    color: $contrast-color;
                    top: 0rem; } //removed superscripting for numerical reference in sidenote
 
-p, footer, div.table-wrapper, div.mathblock{ width: 55%; }
+p, footer, div.table-wrapper, div.mathblock{ width: 65%; }
 
 div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' so scroll bars appear only as needed
 
